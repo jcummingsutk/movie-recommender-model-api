@@ -1,3 +1,6 @@
 [submodule "movie_recommender_data"]
 	path = movie_recommender_data
 	url = https://github.com/jcummingsutk/movie_recommender_data
+[submodule "model_training/movie_recommender_data"]
+	path = model_training/movie_recommender_data
+	url = https://github.com/jcummingsutk/movie_recommender_data

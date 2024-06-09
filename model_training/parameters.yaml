@@ -1,9 +1,0 @@
-model:
-  lr: .001
-  num_epochs: 5
-data:
-  test_size: .15
-  batch_size: 4
-metrics:
-  num_train_examples_until_record_metrics: 1000 #every x examples, record the loss
-  num_test_examples_until_record_metrics: 100

@@ -163,3 +163,4 @@ config_secret.yaml
 mlruns
 model
 notebooks
+old
