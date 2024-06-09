@@ -1,13 +1,9 @@
-import os
-
 import pandas as pd
 import psycopg2
 import torch
 from sklearn.model_selection import train_test_split
 from sqlalchemy import create_engine
 from torch.utils.data import DataLoader, Dataset
-
-from movie_recommender_data.movie_recommender_data.config import get_dev_db_params
 
 
 class MovieDataset(Dataset):
