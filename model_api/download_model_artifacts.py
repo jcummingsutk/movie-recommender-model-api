@@ -2,10 +2,9 @@ import argparse
 import os
 import shutil
 
-from azure.ai.ml import Input, MLClient
+from azure.ai.ml import MLClient
 from azure.identity import EnvironmentCredential
 from config import get_config_dict, load_azure_service_principal_environment_vars
-from mlflow import MlflowClient
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
