@@ -1,0 +1,3 @@
+[submodule "movie-recommender-data"]
+	path = movie-recommender-data
+	url = https://github.com/jcummingsutk/movie-recommender-data
