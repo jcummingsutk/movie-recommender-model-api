@@ -164,3 +164,6 @@ mlruns
 model
 notebooks
 old
+model_api/model_config.yaml
+model_api/preprocessor
+model_api/metrics.json
