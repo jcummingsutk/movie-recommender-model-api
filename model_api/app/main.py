@@ -28,7 +28,7 @@ async def evaluate(movie_input: MovieInput):
     return {"predictions": json.dumps(reshaped)}
 
 
-@app.post("/metrics")
+@app.get("/metrics")
 async def get_metrics():
     with open("./metrics.json", "r") as fp:
         metrics_dict = json.load(fp)
