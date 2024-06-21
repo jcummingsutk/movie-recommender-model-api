@@ -15,4 +15,7 @@ azure:
   AZURE_CLIENT_ID: efc9afe4-877c-4ccb-a264-2a0ee10b8c68
 model:
   name: movie-recommender
-  version: "4"
+  version: "11"
+preprocessor:
+  name: movie-recommender-preprocessor
+  version: "11"
